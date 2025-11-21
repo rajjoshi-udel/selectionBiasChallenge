@@ -14,7 +14,7 @@
         "  eval: true\n",
         "---\n"
       ],
-      "id": "0a7049b5"
+      "id": "61da8fe7"
     },
     {
       "cell_type": "code",
@@ -211,7 +211,7 @@
       "source": [
         "#| label: create-final-meme\n",
         "#| echo: false\n",
-        "\n",
+        "#| include: false\n",
         "from create_meme import create_statistics_meme\n",
         "from IPython.display import Image, display\n",
         "\n",
@@ -241,7 +241,7 @@
         "\n",
         "This meme demonstrates selection bias by showing how systematic missing data patterns distort our understanding of reality. The original image (Reality) represents the true population, while the stippled version (Your Model) shows our data collection. When selection bias removes data points in a systematic \"S\" pattern, the resulting estimate becomes biased and no longer represents the true population, just as missing data in real-world studies can lead to incorrect conclusions."
       ],
-      "id": "00feb013"
+      "id": "36ff7f8f"
     }
   ],
   "metadata": {
