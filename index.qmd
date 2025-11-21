@@ -13,7 +13,8 @@ execute:
 #| label: step1-prepare
 #| echo: false
 #| fig-cap: "Original image prepared for processing"
-
+#| include: false
+#| 
 import numpy as np
 import matplotlib.pyplot as plt
 from step1_prepare_image import prepare_image
@@ -40,7 +41,8 @@ plt.show()
 #| fig-cap: "Blue noise stippling pattern"
 #| message: false
 #| warning: false
-
+#| include: false
+#| 
 from step2_create_stipple import create_stipple
 
 # Create stippled image
@@ -71,7 +73,8 @@ plt.show()
 #| label: step3-tonal
 #| echo: false
 #| fig-cap: "Box-averaged tonal analysis showing brightness distribution"
-
+#| include: false
+#| 
 from step3_create_tonal import create_tonal
 import matplotlib.pyplot as plt
 
@@ -132,7 +135,8 @@ print(f"  - Use mid_tone_center around {tonal_stats['mean']:.2f} to emphasize av
 #| label: step4-block-letter
 #| echo: false
 #| fig-cap: "Block letter S representing selection bias"
-
+#| include: false
+#| 
 from step4_create_block_letter import create_block_letter_s
 
 # Get image dimensions
@@ -154,7 +158,8 @@ plt.show()
 #| label: step5-masked
 #| echo: false
 #| fig-cap: "Masked stippled image showing selection bias effect"
-
+#| include: false
+#| 
 from step5_create_masked import create_masked_stipple
 
 # Create masked stippled image
