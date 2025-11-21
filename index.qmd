@@ -182,8 +182,7 @@ plt.show()
 ```{python}
 #| label: create-final-meme
 #| echo: false
-#| include: false
-#| 
+
 from create_meme import create_statistics_meme
 from IPython.display import Image, display
 
